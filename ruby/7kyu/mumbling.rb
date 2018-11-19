@@ -1,5 +1,5 @@
 # Mumbling
-# https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/solutions/ruby
+# https://www.codewars.com/kata/mumbling/solutions/ruby
 # The examples below show you how to write function accum:
 # Examples:
 
