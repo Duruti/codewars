@@ -1,8 +1,6 @@
 # Write Number in Expanded Form
 # https://www.codewars.com/kata/write-number-in-expanded-form/ruby
 
-# If you liked this kata, check out part 2!! (https://www.codewars.com/kata/write-number-in-expanded-form-part-2)
-
 def expanded_form(num)
   s = ""
   num = num.to_s.reverse
