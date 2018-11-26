@@ -1,6 +1,5 @@
 # Remove String Spaces
-# https://www.codewars.com/kata/remove-string-spaces/solutions/ruby
-# Simple, remove the spaces from the string, then return the resultant string.
+# https://www.codewars.com/kata/remove-string-spaces/ruby
 
 def no_space(x)
   x.gsub(/\s/, "")

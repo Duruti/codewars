@@ -1,8 +1,5 @@
 # Write Number in Expanded Form
-# https://www.codewars.com/kata/write-number-in-expanded-form/solutions/ruby
-# You will be given a number and you will need to return it as a string in Expanded Form.
-
-# NOTE: All numbers will be whole numbers greater than 0.
+# https://www.codewars.com/kata/write-number-in-expanded-form/ruby
 
 # If you liked this kata, check out part 2!! (https://www.codewars.com/kata/write-number-in-expanded-form-part-2)
 

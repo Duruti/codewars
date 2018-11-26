@@ -1,10 +1,5 @@
 # Friend or Foe?
-# https://www.codewars.com/kata/friend-or-foe/solutions/ruby
-# Make a program that filters a list of strings and returns a list with only your friends name in it.
-
-# If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
-
-# Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
+# https://www.codewars.com/kata/friend-or-foe/ruby
 
 def friend(friends)
   p friends.select { |name| name.length == 4 }
