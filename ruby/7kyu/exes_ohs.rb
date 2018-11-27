@@ -1,22 +1,12 @@
 # Exes and Ohs
 # https://www.codewars.com/kata/exes-and-ohs/ruby
 
-def XO(str)
-  xCount = str.downcase.count("x")
-  oCount = str.downcase.count("o")
-  if xCount == oCount
-    p true
-  elsif xCount != oCount
-    p false
-  elsif xCount == 0 || oCount == 0
-    p true
-  else
-    p false
-  end
+def xo(str)
+  str.downcase.count('x') == str.downcase.count('o')
 end
 
-XO("ooxx") # true
-XO("xooxx") # false
-XO("ooxXm") # true
-XO("zpzpzpp") # true // when no 'x' and 'o' is present should return true
-XO("zzoo") # false
+xo('ooxx') # true
+xo('xooxx') # false
+xo('ooxXm') # true
+xo('zpzpzpp') # true // when no 'x' and 'o' is present should return true
+xo('zzoo') # false

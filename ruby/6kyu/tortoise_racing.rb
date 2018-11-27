@@ -1,9 +1,10 @@
 # Tortoise racing
 # https://www.codewars.com/kata/tortoise-racing/ruby
 
-def race(v1, v2, g)
-  return nil if v1 >= v2
-  t = (g.to_f / (v2.to_f - v1.to_f))
+def race(vel1, vel2, dist)
+  return nil if vel1 >= vel2
+
+  t = (dist.to_f / (vel2.to_f - vel1.to_f))
   h = t.floor
   m = ((t * 60) % 60).floor
   s = ((t * 3600) % 60).floor
