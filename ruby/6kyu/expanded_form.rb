@@ -2,13 +2,13 @@
 # https://www.codewars.com/kata/write-number-in-expanded-form/ruby
 
 def expanded_form(num)
-  p num.to_s
-       .chars
-       .reverse
-       .map.with_index { |i, idx| i == '0' ? nil : i + '0' * idx }
-       .compact
-       .reverse
-       .join(' + ')
+  num.to_s
+     .chars
+     .reverse
+     .map.with_index { |i, idx| i == '0' ? nil : i + '0' * idx }
+     .compact
+     .reverse
+     .join(' + ')
 end
 
 expanded_form(12) # '10 + 2'

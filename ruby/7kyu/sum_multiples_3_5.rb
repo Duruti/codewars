@@ -2,11 +2,7 @@
 # https://www.codewars.com/kata/sum-of-all-the-multiples-of-3-or-5/ruby
 
 def find(num)
-  s = 0
-  (0..num).each do |i|
-    s += i if (i % 3).zero? || (i % 5).zero?
-  end
-  s
+  p (3..num).select { |i| (i % 3).zero? || (i % 5).zero? }.reduce(:+)
 end
 
 find(5) # 8

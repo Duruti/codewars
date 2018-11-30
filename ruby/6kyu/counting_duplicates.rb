@@ -3,9 +3,6 @@
 
 def duplicate_count(text)
   a = text.downcase.split('')
-  # count elements with more than 1 index
-  # create a new array with those indexes
-  # eliminate duplicates and show the array length of the new array
   p a.select { |e| a.count(e) > 1 }.uniq.length
 end
 
