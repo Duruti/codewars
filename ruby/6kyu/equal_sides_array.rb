@@ -3,9 +3,7 @@
 
 def find_even_index(arr)
   arr.each_index do |x|
-    if arr[0...x].inject(0, :+) == arr[x + 1..arr.length - 1].inject(0, :+)
-      return x
-    end
+    return x if arr.first(x).inject(0, :+) == arr[x + 1..-1].inject(0, :+)
   end
   -1
 end
