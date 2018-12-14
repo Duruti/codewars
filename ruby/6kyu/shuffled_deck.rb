@@ -5,4 +5,4 @@ def shuffled_deck
   'HCDS'.chars.map { |x| (1..13).map { |y| "#{x} #{y}" } }.flatten.shuffle
 end
 
-p shuffled_deck
+shuffled_deck

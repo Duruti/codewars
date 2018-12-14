@@ -2,7 +2,7 @@
 # https://www.codewars.com/kata/shortest-word/ruby
 
 def find_short(str)
-  str.split.uniq.map(&:length).uniq.min
+  str.split.uniq.map(&:length).min
 end
 
 find_short('bitcoin take over the world maybe who knows perhaps') # 3

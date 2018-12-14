@@ -3,7 +3,7 @@
 
 def duplicate_count(text)
   a = text.downcase.split('')
-  p a.select { |e| a.count(e) > 1 }.uniq.length
+  a.select { |e| a.count(e) > 1 }.uniq.length
 end
 
 duplicate_count('abcde') # 0
