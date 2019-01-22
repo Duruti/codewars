@@ -2,16 +2,14 @@
 # https://www.codewars.com/kata/remove-the-minimum/ruby
 
 def remove_smallest(numbers)
-  if numbers.length.zero?
-    []
-  else
-    a = numbers.dup
-    a.slice!(numbers.index(numbers.min))
-    a
-  end
+  return [] if numbers.length.zero?
+
+  a = numbers.dup
+  a.slice!(numbers.index(numbers.min))
+  a
 end
 
-remove_smallest([1, 2, 3, 4, 5]) # [2, 3, 4, 5]
-remove_smallest([2, 2, 1, 2, 1]) # [2, 2, 2, 1]
-remove_smallest([]) # []
-remove_smallest([5, 3, 2, 1, 4]) # [5, 3, 2, 4]
+p remove_smallest([1, 2, 3, 4, 5]) # [2, 3, 4, 5]
+p remove_smallest([2, 2, 1, 2, 1]) # [2, 2, 2, 1]
+p remove_smallest([]) # []
+p remove_smallest([5, 3, 2, 1, 4]) # [5, 3, 2, 4]
