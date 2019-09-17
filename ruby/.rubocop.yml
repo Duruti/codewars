@@ -8,4 +8,4 @@ Style/NumericLiterals:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
-  EnforcedStyle: 	never
+  EnforcedStyle: never
