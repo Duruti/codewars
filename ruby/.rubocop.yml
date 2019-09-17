@@ -1,0 +1,11 @@
+Metrics/LineLength:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  MinNameLength: 0
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: 	never
