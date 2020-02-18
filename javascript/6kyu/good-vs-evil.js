@@ -1,3 +1,6 @@
+// Good vs Evil
+// https://www.codewars.com/kata/52761ee4cffbc69732000738/javascript
+
 function goodVsEvil(good, evil){
   const goodValues = [1, 2, 3, 3, 4, 10];
   const evilValues = [1, 2, 2, 2, 3, 5, 10];
