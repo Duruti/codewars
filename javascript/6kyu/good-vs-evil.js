@@ -18,6 +18,6 @@ function goodVsEvil(good, evil) {
   return evil > good
     ? "Battle Result: Evil eradicates all trace of Good"
     : good > evil
-    ? "Battle Result: Good triumphs over Evil"
-    : "Battle Result: No victor on this battle field";
+      ? "Battle Result: Good triumphs over Evil"
+      : "Battle Result: No victor on this battle field";
 }
