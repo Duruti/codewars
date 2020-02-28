@@ -4,9 +4,3 @@
 def find_short(str)
   str.split.uniq.map(&:length).min
 end
-
-find_short('bitcoin take over the world maybe who knows perhaps') # 3
-find_short('turns out random test cases are easier than writing out basic ones') # 3
-find_short('lets talk about javascript the best language') # 3
-find_short('i want to travel the world writing code one day') # 1
-find_short('Lets all go on holiday somewhere very cold') # 2

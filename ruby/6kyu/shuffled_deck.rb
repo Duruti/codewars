@@ -4,5 +4,3 @@
 def shuffled_deck
   'HCDS'.chars.map { |x| (1..13).map { |y| "#{x} #{y}" } }.flatten.shuffle
 end
-
-shuffled_deck

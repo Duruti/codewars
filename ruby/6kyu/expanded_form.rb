@@ -10,7 +10,3 @@ def expanded_form(num)
      .reverse
      .join(' + ')
 end
-
-expanded_form(12) # '10 + 2'
-expanded_form(42) # '40 + 2'
-expanded_form(70304) # '70000 + 300 + 4'

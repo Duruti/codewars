@@ -10,8 +10,3 @@ def persistence(num)
   end
   c
 end
-
-persistence(39) # 3
-persistence(4) # 0
-persistence(25) # 2
-persistence(999) # 4

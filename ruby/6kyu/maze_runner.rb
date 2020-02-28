@@ -25,10 +25,3 @@ maze = [[1, 1, 1, 1, 1, 1, 1],
         [1, 0, 1, 0, 1, 0, 1],
         [1, 0, 0, 0, 0, 0, 1],
         [1, 2, 1, 0, 1, 0, 1]]
-
-p maze_runner(maze, %w[N N N N N E E E E E]) # 'Finish'
-p maze_runner(maze, %w[N N N N N E E S S E E N N E]) # 'Finish'
-p maze_runner(maze, %w[N N N N N E E E E E W W]) # 'Finish'
-p maze_runner(maze, %w[N N N W W]) # 'Dead'
-p maze_runner(maze, %w[N N N N N E E S S S S S S]) # 'Dead'
-p maze_runner(maze, %w[N E E E E]) # 'Lost'
