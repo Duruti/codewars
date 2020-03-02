@@ -3,6 +3,10 @@
 
 function divisors(integer) {
   const div = [];
-  for (let i = 2; i < integer; i++) if (integer % i === 0) div.push(i);
+
+  [...Array(integer).keys()].forEach((el) => {
+    if (el > 1 && integer % el === 0) div.push(el);
+  });
+
   return div.length === 0 ? `${integer} is prime` : div;
 }

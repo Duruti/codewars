@@ -4,8 +4,8 @@
 function add(a, b) {
   if (b.length > a.length) return add(b, a);
 
-  const toArray = str => str.split("").reverse();
-  const toString = arr => arr.reverse().join("");
+  const toArray = (str) => str.split('').reverse();
+  const toString = (arr) => arr.reverse().join('');
 
   const operation = (arr1, arr2) => {
     const result = [];
@@ -14,7 +14,7 @@ function add(a, b) {
 
       if (!result[i]) result[i] = 0;
 
-      const next = ((result[i] + sum) / 10) | 0;
+      const next = (Math.floor((result[i] + sum) / 10)) || 0;
 
       result[i] = (result[i] + sum) % 10;
 

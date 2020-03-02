@@ -1,6 +1,4 @@
 // Multiply
 // https://www.codewars.com/kata/multiply/javascript
 
-function multiply(a, b) {
-  return a * b;
-}
+const multiply = (a, b) => a * b;
