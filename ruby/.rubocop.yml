@@ -1,7 +1,4 @@
-Metrics/LineLength:
-  Enabled: false
-
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   MinNameLength: 0
 
 Style/NumericLiterals:
